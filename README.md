@@ -3,8 +3,8 @@ Tetris game written in Python using Pygame library
 
 # Implementation steps
 - [x] Install Pygame lib
-- [ ] Setup the game loop
-- [ ] Creating the grid
+- [x] Setup the game loop
+- [x] Creating the grid
 - [ ] Creating the blocks
 - [ ] Move the blocks
 - [ ] Rotate the blocks
