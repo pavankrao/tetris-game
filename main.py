@@ -12,9 +12,9 @@ dark_blue = (44, 44, 127)
 game_grid = Grid()
 
 # test grid color fill
-# game_grid.grid[0][0] = 1
-# game_grid.grid[3][5] = 4
-# game_grid.grid[17][8] = 7
+game_grid.grid[0][0] = 1
+game_grid.grid[3][5] = 4
+game_grid.grid[17][8] = 7
 
 game_grid.print_grid()
 
