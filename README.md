@@ -5,7 +5,7 @@ Tetris game written in Python using Pygame library
 - [x] Install Pygame lib
 - [x] Setup the game loop
 - [x] Creating the grid
-- [ ] Creating the blocks
+- [x] Creating the blocks
 - [ ] Move the blocks
 - [ ] Rotate the blocks
 - [ ] Checking for collisions
