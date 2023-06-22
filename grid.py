@@ -16,7 +16,7 @@ class Grid:
                 print(self.grid[row][column], end = " ")
             print()
 
-    def draw_grid(self, screen):
+    def draw(self, screen):
         for row in range(self.num_rows):
             for column in range(self.num_cols):
                 cell_value = self.grid[row][column]
