@@ -13,7 +13,7 @@ dark_blue = (44, 44, 127)
 game_grid = Grid()
 
 # Blocks include [L, J, I, O, S, T, Z]
-block = TBlock()
+block = IBlock()
 
 while True:
     for event in pygame.event.get():
