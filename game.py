@@ -18,12 +18,12 @@ class Game:
 
     def move_left(self):
         self.current_block.move(0,-1)
-        if self.block_inside() == False:
+        if self.block_inside() == False or self.block_fits() == False:
             self.current_block.move(0,1)
 
     def move_right(self):
         self.current_block.move(0,1)
-        if self.block_inside() == False:
+        if self.block_inside() == False or self.block_fits() == False:
             self.current_block.move(0,-1)
 
     def move_down(self):
@@ -46,10 +46,9 @@ class Game:
                 return False
         return True
 
-
     def rotate(self):
         self.current_block.rotate()
-        if self.block_inside() == False:
+        if self.block_inside() == False or self.block_fits() == False:
             self.current_block.undo_rotation()
 
     def block_inside(self):

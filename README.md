@@ -8,7 +8,7 @@ Tetris game written in Python using Pygame library
 - [x] Creating the blocks
 - [x] Move the blocks
 - [x] Rotate the blocks
-- [ ] Checking for collisions
+- [x] Checking for collisions
 - [ ] Check for completed rows
 - [ ] Check for Game over
 - [ ] Create User Interface
