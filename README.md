@@ -23,3 +23,4 @@ Ideas
 - Packaging different OS distribution
     - package files
 - Github actions to automate generating artifacts
+- PyLint
