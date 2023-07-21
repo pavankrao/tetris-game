@@ -15,3 +15,11 @@ Tetris game written in Python using Pygame library
 - [ ] Add score
 - [ ] Add next block
 - [ ] Add sounds
+
+# Packaging app
+
+Ideas
+- Distribute as Flatpak / Docker image
+- Packaging different OS distribution
+    - package files
+- Github actions to automate generating artifacts
