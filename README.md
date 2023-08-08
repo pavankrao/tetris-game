@@ -11,8 +11,8 @@ Tetris game written in Python using Pygame library
 - [x] Checking for collisions
 - [x] Check for completed rows
 - [x] Check for Game over
-- [ ] Create User Interface
-- [ ] Add score
+- [x] Create User Interface
+- [x] Add score
 - [ ] Add next block
 - [ ] Add sounds
 
