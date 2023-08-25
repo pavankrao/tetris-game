@@ -1,26 +1,26 @@
-# tetris-game
-Tetris game written in Python using Pygame library
+# Python Tetris game
 
-# Implementation steps
-- [x] Install Pygame lib
-- [x] Setup the game loop
-- [x] Creating the grid
-- [x] Creating the blocks
-- [x] Move the blocks
-- [x] Rotate the blocks
-- [x] Checking for collisions
-- [x] Check for completed rows
-- [x] Check for Game over
-- [x] Create User Interface
-- [x] Add score
-- [x] Add next block
-- [x] Add sounds
+Tetris tile-matching puzzle video game made in Python3
 
-# Packaging app
+![ScreenShot](https://raw.githubusercontent.com/pavankrao/tetris-game/main/screenshots/game.png)
 
-Ideas
-- Distribute as Flatpak / Docker image
-- Packaging different OS distribution
-    - package files
-- Github actions to automate generating artifacts
-- PyLint
+**Controls**
+- Move     - ← ↓ →
+- Drop     - ↓
+- Rotate   - ↑
+- Restart New Game - ↓
+
+**Points**
+- **1** for each block move
+- **100** for each line cleared
+
+
+#### Play on Linux
+
+1. Install tool to build package `pip install pyinstaller`
+
+2. Build the game `python3 -m PyInstaller main.py --onefile`
+
+3. Move game file relative to game resources (sound files) by doing `mv dist/main .`
+
+4. Run the game by doing `./main` and enjoy :)
