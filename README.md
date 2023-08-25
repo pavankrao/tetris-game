@@ -13,8 +13,8 @@ Tetris game written in Python using Pygame library
 - [x] Check for Game over
 - [x] Create User Interface
 - [x] Add score
-- [ ] Add next block
-- [ ] Add sounds
+- [x] Add next block
+- [x] Add sounds
 
 # Packaging app
 
